@@ -322,7 +322,7 @@ const Surprise = () => {
               animate={{ scale: [1, 1.03, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
             >
-              Happy Birthday, Mia 
+              Happy Birthday, Dhruvvii
               <motion.span
                 className="inline-block ml-2"
                 animate={{ scale: [1, 1.3, 1], rotate: [0, 10, -10, 0] }}
