@@ -185,7 +185,7 @@ const Letter = () => {
               initial={{ opacity: 0, y: 40, scale: 0.95 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              className="bg-card/95 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-card border border-border relative"
+             className="bg-card/95 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-card border border-border relative font-handwritten"
             >
               {/* Paper fold decoration */}
               <motion.div 
@@ -222,12 +222,13 @@ const Letter = () => {
                 </h1>
               </motion.div>
 
-              <Typewriter
-                text={LETTER_TEXT}
-                speed={30}
-                onComplete={() => setIsComplete(true)}
-                className="text-lg md:text-xl leading-relaxed"
-              />
+             <Typewriter
+              text={LETTER_TEXT}
+              speed={30}
+              onComplete={() => setIsComplete(true)}
+              className="text-[1.1rem] md:text-[1.3rem] leading-relaxed tracking-wide"
+             />
+
 
               {/* Signature */}
               <motion.div
