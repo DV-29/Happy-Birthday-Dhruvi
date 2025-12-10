@@ -16,7 +16,7 @@ export default {
       fontFamily: {
         display: ['Playfair Display', 'serif'],
         body: ['Inter', 'sans-serif'],
-        handwritten: ['Dancing Script', 'cursive'],
+        handwritten: ['"Pacifico"', 'cursive'],
       },
       colors: {
         border: "hsl(var(--border))",
