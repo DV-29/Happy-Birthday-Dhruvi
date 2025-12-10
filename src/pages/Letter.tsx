@@ -181,12 +181,14 @@ const Letter = () => {
           ) : (
             // Letter content
             <motion.div
-              key="letter"
-              initial={{ opacity: 0, y: 40, scale: 0.95 }}
-              animate={{ opacity: 1, y: 0, scale: 1 }}
-              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-             className="bg-card/95 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-card border border-border relative font-handwritten"
-            >
+            key="letter"
+            initial={{ opacity: 0, y: 40, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            className="bg-card/95 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-card border border-border relative"
+            style={{ fontFamily: '"Pacifico", "Dancing Script", "cursive' }}
+              >
+
               {/* Paper fold decoration */}
               <motion.div 
                 className="absolute top-0 right-0 w-20 h-20 overflow-hidden"
