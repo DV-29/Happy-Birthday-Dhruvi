@@ -224,12 +224,13 @@ const Letter = () => {
                 </h1>
               </motion.div>
 
-             <Typewriter
-              text={LETTER_TEXT}
-              speed={30}
-              onComplete={() => setIsComplete(true)}
-              className="text-[1.1rem] md:text-[1.3rem] leading-relaxed tracking-wide"
-             />
+               <Typewriter
+                text={LETTER_TEXT}
+                speed={30}
+                onComplete={() => setIsComplete(true)}
+                className="text-[1.05rem] md:text-[1.25rem] leading-relaxed tracking-wide"
+               />
+
 
 
               {/* Signature */}
