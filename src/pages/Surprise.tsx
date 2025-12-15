@@ -168,7 +168,7 @@ const Surprise = () => {
               }}
               transition={{ duration: 3, repeat: Infinity }}
             >
-              Your Surprise
+              D & D
             </motion.span>
           </motion.h1>
           <motion.p 
@@ -177,7 +177,7 @@ const Surprise = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
           >
-            A little something extra, just for you
+            Dhruvi & Dhruv
           </motion.p>
         </motion.div>
 
