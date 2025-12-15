@@ -83,11 +83,10 @@ Loving you is the most beautiful thing I know how to do.
 Forever and always yours,`;
 
 export const PHOTOS = [
-  'https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&auto=format&fit=crop',
-  'https://images.unsplash.com/photo-1543807535-eceef0bc6599?w=800&auto=format&fit=crop',
+  '/Photos/Pic1.jpg',
+  '/Photos/Pic2.jpg',
+  '/Photos/Pic3.jpg',
+  '/Photos/Pic4.jpg',
 ];
 
 export const POEM = `Like tulips in spring, you bloom with grace,
