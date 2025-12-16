@@ -89,12 +89,32 @@ export const PHOTOS = [
   '/Photos/Pic4.jpg',
 ];
 
-export const POEM = `Like tulips in spring, you bloom with grace,
-Bringing warmth and color to every space.
-Like coffee on mornings cold and grey,
-You make everything better in every way.
+export const POEM = `Today the sky feels softer,
+as if it learned your name,
+The sun rises a little slower,
+just to watch you shine the same.
 
-A year older, wiser, more beautiful still,
-My heart overflows, and always will.
-Happy Birthday, my love, my everything,
-May this year bring you joy in everything.`;
+The wind carries quiet wishes,
+whispered gently, warm and true,
+Every heartbeat in this moment
+knows the world is better with you.
+
+You are the calm in all my chaos,
+the poetry my silence knew,
+Every wish I never spoke
+was quietly leading me to you.
+
+In your smile, I find my mornings,
+In your voice, my favorite song,
+In your presence, time forgets
+where it ever learned to go wrong.
+
+So on this day the universe chose you,
+I promise this, as clear as light,
+To love you deeper with each dawn,
+and hold you closer every night.
+
+Happy Birthday, my dream, my home,
+my always, my forever too,
+This life, these days, this heart of mine
+begin and end with loving you.`;
