@@ -172,7 +172,7 @@ const Landing = () => {
                 }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                Happy Birthday, Dhruvvii
+                Happy Birthday, Dhruvvii 👸💓
               </motion.span>
             </motion.h1>
 
@@ -233,7 +233,7 @@ const Landing = () => {
               animate={{ y: [0, -5, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
             >
-              Made with love by Dhruv 
+              Made with love by Tera Pagal 
               <motion.span
                 className="inline-block ml-1"
                 animate={{ scale: [1, 1.3, 1] }}
