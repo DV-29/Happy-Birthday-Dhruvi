@@ -172,7 +172,7 @@ const Landing = () => {
                 }}
                 transition={{ duration: 3, repeat: Infinity }}
               >
-                Happy Birthday, Dhruvvii 👸
+                Happy Birthday, Dhruvvii 
               </motion.span>
             </motion.h1>
 
