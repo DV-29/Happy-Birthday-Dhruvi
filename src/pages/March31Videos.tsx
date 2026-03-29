@@ -13,39 +13,30 @@ interface VideoSection {
 
 const VIDEOS: VideoSection[] = [
   {
-    title: '',
     driveId: '1CjZfPbwrcbjGJ2z_Hveq-8UmjZ5usmaH',
   },
   {
-    title: '',
     driveId: '1HpTzyyuEdVwo23bM12KjApISkuJK-B5L',
   },
   {
-    title: '',
     driveId: '1Fgb4B-LrHPA1UthpwELAiiGZ6Plrdj82',
   },
   {
-    title: '',
     driveId: '1NxZUhvfDeyxxPYgq8Lgque0u-KZ9Et3r',
   },
   {
-    title: '',
     driveId: '1YbBW02ZP2mreW2hCyj5pqMh21O0eHX9y',
   },
   {
-    title: '',
     driveId: '10KNRSknxqBI5cziUgOttGW7945qtVGwG',
   },
   {
-    title: '',
     driveId: '1cb6So70hL_Nm2iLc12vZJYCp22qQwbtv',
   },
   {
-    title: '',
     driveId: '110J7XDRgR_49nczB02O6nN4hOd9dAos-',
   },
   {
-    title: '',
     driveId: '14ySmXgr1SnRYkhMPOQZNhqbbMxhBJz22',
   },
 ];
