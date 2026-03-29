@@ -6,8 +6,6 @@ import { Button } from '@/components/ui/button';
 import PageTransition from '@/components/PageTransition';
 
 interface VideoSection {
-  title: string;
-  caption: string;
   driveId: string;
 }
 
