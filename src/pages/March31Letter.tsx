@@ -9,29 +9,29 @@ import PageTransition from '@/components/PageTransition';
 
 const MARCH31_LETTER = `My Dearest Dhruvvii,
 
-Do you remember? 31st March — the day that changed everything. The day a simple "hi" turned into the beginning of us. I didn't know back then that a conversation would become my whole world.
+31st March…
 
-One year. 365 days. And every single one of them, I've fallen deeper in love with you.
+The day everything quietly began. The day I gathered just enough courage to text you a simple “hi”. I didn’t know then that this one message would turn into something so beautiful, something that would slowly become the most important part of my life.
 
-I remember the nervousness, the butterflies, wondering if you'd reply. And then you did. And then we talked. And talked. And talked. Hours felt like minutes. Days felt like blessings. You became my favorite notification, my reason to smile at my phone like a fool.
+One year. 365 days. And somewhere in between all those conversations, you became my favorite part of every single day. From waiting for your reply to smiling at my phone for no reason, you slowly became my habit, my comfort, my home.
 
-You know what's beautiful? We didn't rush. We let it grow — like those tulips I love. Slowly, beautifully, naturally. From strangers to "What are you doing?" to "I can't imagine my day without you."
+And today, all I feel is this overwhelming love for you. I love you so much. Bohottt zyada. More than I can properly put into words, more than I even understand myself sometimes. It is there in everything I do, in every thought that comes back to you.
 
-This past year, you've seen me at my best and at my most vulnerable. You've held my heart so gently, even when I didn't know how to ask for it. You've been my peace in chaos, my laughter in silence, my home in a person.
+There were so many moments in this journey. The random talks, the long conversations that never felt long, the silences that still felt full. We didn’t rush anything. We just let it become what it is today, something real, something beautiful.
 
-There were moments I doubted myself — am I enough? Am I doing this right? But then you'd say something, or laugh in that way you do, and suddenly everything made sense again.
+No matter what happens, no matter where life takes us, I want you to always remember this one thing. I am always with you. In ways you see and even in ways you don’t. In your happy moments, in your quiet ones, in the days that feel heavy. I am there.
 
-Baby, I want you to know — you are not just someone I love. You are someone I choose. Every day. Every morning. Every night. In every mood, in every fight, in every silence — I choose you. I will always choose you.
+I had imagined doing so much for you today. I wanted to make it special in every possible way. But I’m sorry, I am not even in the state to write as much as I truly want to.
 
-Thank you for being patient with me. Thank you for loving me the way you do. Thank you for making 31st March the most important day of my life.
+Still, I didn’t want this day to pass without giving you something from my heart.
 
-Here's to us. Here's to every laugh, every late-night call, every "I love you" that still makes my heart race. Here's to forever.
+So I recorded some videos. And out of all of them, I’ve shared the ones where I felt ready to come in front of you, the ones I wanted you to see right now. I’ve attached those on the next page.
 
-Happy Anniversary of Us, my love. I am so, so grateful that you exist.
+Go there when you’re ready.
 
-I love you more than words on a screen could ever say.
+Happy anniversary of us, my love. Thank you for being you, for being mine, for being a part of my life in the way you are.
 
-Tumhara humesha,`;
+Tera Doba,`;
 
 const March31Letter = () => {
   const navigate = useNavigate();
