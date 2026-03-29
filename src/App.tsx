@@ -8,6 +8,9 @@ import Landing from "./pages/Landing";
 import Letter from "./pages/Letter";
 import Playlist from "./pages/Playlist";
 import Surprise from "./pages/Surprise";
+import March31Password from "./pages/March31Password";
+import March31Letter from "./pages/March31Letter";
+import March31Videos from "./pages/March31Videos";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +25,9 @@ const AnimatedRoutes = () => {
         <Route path="/letter" element={<Letter />} />
         <Route path="/playlist" element={<Playlist />} />
         <Route path="/surprise" element={<Surprise />} />
+        <Route path="/march31-password" element={<March31Password />} />
+        <Route path="/march31-letter" element={<March31Letter />} />
+        <Route path="/march31-videos" element={<March31Videos />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
