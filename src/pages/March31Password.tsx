@@ -12,7 +12,7 @@ const March31Password = () => {
   const [error, setError] = useState('');
   const [shake, setShake] = useState(false);
 
-  const correctPassword = '31march';
+  const correctPassword = 'DhruviDhruv@2029';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
