@@ -13,32 +13,56 @@ interface VideoSection {
 
 const VIDEOS: VideoSection[] = [
   {
-    title: 'The Beginning',
-    caption: 'Where it all started... a simple conversation that became my forever.',
-    driveId: 'YOUR_DRIVE_VIDEO_ID_1',
+    title: '',
+    caption: '',
+    driveId: '1CjZfPbwrcbjGJ2z_Hveq-8UmjZ5usmaH',
   },
   {
     title: 'Our First Laugh',
     caption: 'The moment I knew your smile was going to be my favorite thing in this world.',
-    driveId: 'YOUR_DRIVE_VIDEO_ID_2',
+    driveId: 'link_here_2',
   },
   {
     title: 'Late Night Talks',
     caption: 'Those 2 AM conversations where we forgot the world existed, just us.',
-    driveId: 'YOUR_DRIVE_VIDEO_ID_3',
+    driveId: 'link_here_3',
   },
   {
     title: 'Growing Together',
     caption: 'Every day with you taught me something new about love, about life, about us.',
-    driveId: 'YOUR_DRIVE_VIDEO_ID_4',
+    driveId: 'link_here_4',
   },
   {
     title: 'Our Promise',
     caption: 'No matter what — I choose you. Today, tomorrow, and every day after.',
-    driveId: 'YOUR_DRIVE_VIDEO_ID_5',
+    driveId: 'link_here_5',
+  },
+  {
+    title: 'Your Smile',
+    caption: 'That one smile that fixes everything instantly.',
+    driveId: 'link_here_6',
+  },
+  {
+    title: 'Little Moments',
+    caption: 'It was never the big things, it was always us.',
+    driveId: 'link_here_7',
+  },
+  {
+    title: 'Missing You',
+    caption: 'Even distance couldn’t make me feel far from you.',
+    driveId: 'link_here_8',
+  },
+  {
+    title: 'Forever Us',
+    caption: 'Every version of my future has you in it.',
+    driveId: 'link_here_9',
+  },
+  {
+    title: 'My Favourite Person',
+    caption: 'You are, and always will be, my favourite human.',
+    driveId: 'link_here_10',
   },
 ];
-
 const VideoCard = ({ video, index }: { video: VideoSection; index: number }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
