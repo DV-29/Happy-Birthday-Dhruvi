@@ -16,7 +16,7 @@ const March31Password = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (password.toLowerCase().replace(/[\s/-]/g, '') === correctPassword) {
+    if (password === correctPassword) {
       navigate('/march31-letter');
     } else {
       setError("Hmm, that's not it, my love... try again? 💕");
