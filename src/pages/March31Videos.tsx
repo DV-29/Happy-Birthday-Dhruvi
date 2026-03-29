@@ -14,47 +14,38 @@ interface VideoSection {
 const VIDEOS: VideoSection[] = [
   {
     title: '',
-    caption: ,
     driveId: '1CjZfPbwrcbjGJ2z_Hveq-8UmjZ5usmaH',
   },
   {
     title: '',
-    caption: ,
     driveId: '1HpTzyyuEdVwo23bM12KjApISkuJK-B5L,
   },
   {
     title: '',
-    caption: ,
     driveId: '1Fgb4B-LrHPA1UthpwELAiiGZ6Plrdj82',
   },
   {
     title: '',
-    caption: ,
     driveId: '1NxZUhvfDeyxxPYgq8Lgque0u-KZ9Et3r',
   },
   {
     title: '',
-    caption: ,
     driveId: '1YbBW02ZP2mreW2hCyj5pqMh21O0eHX9y',
   },
   {
-    title: 'Your Smile',
-    caption: 'That one smile that fixes everything instantly.',
+    title: '',
     driveId: '10KNRSknxqBI5cziUgOttGW7945qtVGwG',
   },
   {
     title: '',
-    caption: ,
     driveId: '1cb6So70hL_Nm2iLc12vZJYCp22qQwbtv',
   },
   {
     title: '',
-    caption: ,
     driveId: '110J7XDRgR_49nczB02O6nN4hOd9dAos-',
   },
   {
     title: '',
-    caption: ,
     driveId: '14ySmXgr1SnRYkhMPOQZNhqbbMxhBJz22',
   },
 ];
