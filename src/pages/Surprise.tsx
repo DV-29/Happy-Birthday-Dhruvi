@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Heart, Sparkles, Star, Home } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Heart, Sparkles, Star, Home, Calendar } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Confetti from '@/components/Confetti';
 import PageTransition from '@/components/PageTransition';
@@ -396,6 +396,31 @@ const Surprise = () => {
                 <Home className="w-5 h-5 mr-2 transition-transform group-hover:-translate-x-1" />
                 Back to Home
               </Button>
+            </motion.div>
+
+            {/* Happy 31st March Button */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 2.5 }}
+              className="mt-4"
+            >
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Button
+                  variant="romantic"
+                  size="lg"
+                  onClick={() => navigate('/march31-password')}
+                  className="group relative overflow-hidden"
+                >
+                  <motion.span
+                    className="absolute inset-0 bg-gradient-to-r from-transparent via-primary-foreground/10 to-transparent"
+                    animate={{ x: ['-100%', '100%'] }}
+                    transition={{ duration: 2, repeat: Infinity, repeatDelay: 1 }}
+                  />
+                  <Calendar className="w-5 h-5 mr-2 transition-transform group-hover:rotate-12" />
+                  <span className="relative">Happy 31st March ❤️</span>
+                </Button>
+              </motion.div>
             </motion.div>
           </motion.div>
         </motion.div>
