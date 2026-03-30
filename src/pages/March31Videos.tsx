@@ -236,7 +236,7 @@ const March31Videos = () => {
               }}
               transition={{ duration: 3, repeat: Infinity }}
             >
-              Our Moments Together
+              Our Moments 
             </motion.span>
           </motion.h1>
           <motion.p
@@ -245,7 +245,7 @@ const March31Videos = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Every video, a chapter of our love story
+            Every video, is directly from my Heart
           </motion.p>
         </motion.div>
 
