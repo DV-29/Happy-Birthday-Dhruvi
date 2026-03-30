@@ -197,7 +197,7 @@ const March31Letter = () => {
                 className="group"
               >
                 <Sparkles className="w-5 h-5 mr-2 transition-transform group-hover:rotate-12" />
-                <span>Watch Our Moments</span>
+                <span>Watch Something I recorded</span>
                 <motion.span
                   className="ml-2"
                   animate={{ x: [0, 5, 0] }}
